@@ -1,98 +1,83 @@
 <!DOCTYPE html>
-<html lang="sw">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machaku premier tutoring</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #black;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .container {
-            padding: 20px;
-        }
-        .post {
-            background-color: white;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            margin-top: 20px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MACHAKU PREMIER TUTORING</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #588800; /* Purple background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding-top: 50px;
+  }
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  input[type="text"], input[type="number"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+  }
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  input[type="submit"] {
+    background-color: #fff;
+    color: #6a0dad; /* Purple text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  input[type="submit"]:hover {
+    background-color: #ddd;
+  }
+</style>
 </head>
 <body>
-    <header>
-        <h1>MACHAKU PREMIER TUTORING </h1>
-        <p>Kujifunza kwa Kina na Ufanisi</p>
-    </header>
-
-    <nav>
-        <a href= class="MACHAKU PREMIER TUTORING.HTML ">NYUMBANI</a>
-        <a href="kuhusu sisi.html">KUHUSU SISI</a>
-        <a href="mafunzo.html">MAFUNZO</a>
-        <a href="mawasiliano.html">MAWASILIANO</a>
-        <a href="pakua.html">PAKUA NUKUU</a>
-    </nav>
-
-    <div class="container">
-        <div class="post">
-            <h2>Karibu Machaku Premier Tutoring</h2>
-            <p>Machaku Premier Tutoring ni jukwaa la kielektroniki linalolenga kuwasaidia wanafunzi na walimu kufanikisha malengo yao ya kielimu. Tunatoa masomo ya ana kwa ana na mtandaoni kwa ajili ya wanafunzi wa shule za msingi na sekondari katika masomo mbalimbali.</p>
-        </div>
-
-        <div class="post">
-            <h2>Huduma Zetu</h2>
-            <ul>
-                <li>Masomo ya Sayansi, Hisabati, na Lugha</li>
-                <li>Kuandaa wanafunzi kwa mitihani ya kitaifa</li>
-                <li>Mafunzo ya ziada kwa ajili ya kujenga ujuzi zaidi</li>
-                <li>Masomo ya mtandaoni kupitia video na majaribio</li>
-            </ul>
-        </div>
-
-        <div class="post">
-            <h2>Jifunze kwa Ufanisi</h2>
-            <p>Kupitia Machaku Premier Tutoring, unapata fursa ya kujifunza kwa njia ya kipekee na yenye ufanisi. Tunazingatia mbinu bora za kufundisha zinazowasaidia wanafunzi kuelewa na kukumbuka masomo kwa urahisi. Jiunge nasi leo na ufanye mabadiliko kwenye safari yako ya kielimu!</p>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Machaku Premier Tutoring. Haki zote zimehifadhiwa.</p>
-    </footer>
+<h2>MACHAKU PREMIER TUTORING REGISTRATION FORM</h2>
+<form action="#" method="post" enctype="multipart/form-data">
+  <input type="text" name="first_name" placeholder="First Name" required><br>
+  <input type="text" name="middle_name" placeholder="Middle Name"><br>
+  <input type="text" name="surname" placeholder="Surname" required><br>
+  <input type="number" name="age" placeholder="Age" required><br>
+  <select name="sex" required>
+    <option value="">Select Sex</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select><br>
+  <select name="marital_status" required>
+    <option value="">Select Marital Status</option>
+    <option value="single">Single</option>
+    <option value="married">Married</option>
+    <option value="divorced">Divorced</option>
+    <option value="widowed">Widowed</option>
+  </select><br>
+  <input type="text" name="phone_number" placeholder="Phone Number" required><br>
+  <input type="email" name="email" placeholder="Email" required><br>
+  <input type="text" name="whatsapp_number" placeholder="Whatsapp Number" required><br>
+  <select name="employment_status" required>
+    <option value="">Select Employment Status</option>
+    <option value="employed">Employed</option>
+    <option value="unemployed">Unemployed</option>
+    <option value="student">Student</option>
+    <option value="self_employed">Self-Employed</option>
+  </select><br>
+  <input type="file" name="passport1" accept="image/*" required><br>
+  <input type="file" name="passport2" accept="image/*" required><br>
+  <textarea name="comment" placeholder="Comment"></textarea><br>
+  <textarea name="purpose_of_enrollment" placeholder="Purpose of Enrollment to MACHAKU PREMIER TUTORING" required></textarea><br>
+  <input type="text" name="location" placeholder="Your Location" required><br>
+  <input type="submit" value="Submit"><br>
+</form>
+<p>Thank you for registering with MACHAKU PREMIER TUTORING. We will contact you shortly.</p>
 </body>
 </html>
